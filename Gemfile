@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', path: "/home/lsoave/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/rails-7eae0bb88e52"
+# gem 'rails', path: "/home/lsoave/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/rails-7eae0bb88e52"
+gem 'rails', github: "rails/rails"
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
