@@ -12,6 +12,9 @@
  *
  *= require_tree .
  *= require_self
- *= require bootstrap
- *= require font_awesome
+ *= require bootstrap.min
+ *= require bootstrap-theme.min
+ *= require todc-bootstrap.min.css
+ *= require docs.min.css
+ *= require font-awesome.min
  */

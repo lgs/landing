@@ -1,0 +1,697 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>todc-bootstrap/docs.min.css at gh-pages · todc/todc-bootstrap · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="todc/todc-bootstrap" name="twitter:title" /><meta content="todc-bootstrap - Google-styled theme for Bootstrap." name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/368074?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/368074?v=3&amp;s=400" property="og:image" /><meta content="todc/todc-bootstrap" property="og:title" /><meta content="https://github.com/todc/todc-bootstrap" property="og:url" /><meta content="todc-bootstrap - Google-styled theme for Bootstrap." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="5D22C926:6129:7F8E2C3:56957033" name="octolytics-dimension-request_id" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+<meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+        <meta name="expected-hostname" content="github.com">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta content="f6337e43feb1c3c126bfcf83f81d72dacfe38cfe" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-2cd8e7b7c650541e94a142c9c10fb231b81455e1777c62510eb9b3402cc220b3.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-59f5919583cf2e70e57d04603053adbf07b93660733ba65df25454e92d209fe1.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="056c86881be23af5cd8a809fecb37d38">
+
+      
+  <meta name="description" content="todc-bootstrap - Google-styled theme for Bootstrap.">
+  <meta name="go-import" content="github.com/todc/todc-bootstrap git https://github.com/todc/todc-bootstrap.git">
+
+  <meta content="368074" name="octolytics-dimension-user_id" /><meta content="todc" name="octolytics-dimension-user_login" /><meta content="2361853" name="octolytics-dimension-repository_id" /><meta content="todc/todc-bootstrap" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="2361853" name="octolytics-dimension-repository_network_root_id" /><meta content="todc/todc-bootstrap" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/todc/todc-bootstrap/commits/gh-pages.atom" rel="alternate" title="Recent Commits to todc-bootstrap:gh-pages" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out   env-production  vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span aria-hidden="true" class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Ftodc%2Ftodc-bootstrap%2Fblob%2Fgh-pages%2Fassets%2Fcss%2Fdocs.min.css" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/todc/todc-bootstrap/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/todc/todc-bootstrap/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-repo-pjax-container" class="context-loader-container js-repo-nav-next" data-pjax-container>
+      
+<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+  <div class="container repohead-details-container">
+
+    
+
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Ftodc%2Ftodc-bootstrap"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span aria-hidden="true" class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/todc/todc-bootstrap/watchers">
+    117
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftodc%2Ftodc-bootstrap"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span aria-hidden="true" class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/todc/todc-bootstrap/stargazers">
+      2,069
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftodc%2Ftodc-bootstrap"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span aria-hidden="true" class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+
+    <a href="/todc/todc-bootstrap/network" class="social-count">
+      258
+    </a>
+  </li>
+</ul>
+
+    <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span aria-hidden="true" class="octicon octicon-repo"></span>
+  <span class="author"><a href="/todc" class="url fn" itemprop="url" rel="author"><span itemprop="title">todc</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/todc/todc-bootstrap" data-pjax="#js-repo-pjax-container">todc-bootstrap</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+  </div>
+  <div class="container">
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <a href="/todc/todc-bootstrap/tree/gh-pages" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /todc/todc-bootstrap/tree/gh-pages">
+    <span aria-hidden="true" class="octicon octicon-code"></span>
+    Code
+</a>
+    <a href="/todc/todc-bootstrap/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /todc/todc-bootstrap/issues">
+      <span aria-hidden="true" class="octicon octicon-issue-opened"></span>
+      Issues
+      <span class="counter">5</span>
+</a>
+  <a href="/todc/todc-bootstrap/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /todc/todc-bootstrap/pulls">
+    <span aria-hidden="true" class="octicon octicon-git-pull-request"></span>
+    Pull requests
+    <span class="counter">0</span>
+</a>
+
+  <a href="/todc/todc-bootstrap/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /todc/todc-bootstrap/pulse">
+    <span aria-hidden="true" class="octicon octicon-pulse"></span>
+    Pulse
+</a>
+  <a href="/todc/todc-bootstrap/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /todc/todc-bootstrap/graphs">
+    <span aria-hidden="true" class="octicon octicon-graph"></span>
+    Graphs
+</a>
+
+</nav>
+
+  </div>
+</div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+
+<a href="/todc/todc-bootstrap/blob/25a0253ee8d22b1ee03bd64adbb69a4b96eb2169/assets/css/docs.min.css" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:ce169b54cc9cdd2550df79bf9bc7c65e -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    title="gh-pages"
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">gh-pages</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span aria-label="Close" class="octicon octicon-x js-menu-close" role="button"></span>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/todc/todc-bootstrap/blob/getting-started/assets/css/docs.min.css"
+               data-name="getting-started"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="getting-started">
+                getting-started
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/todc/todc-bootstrap/blob/gh-pages/assets/css/docs.min.css"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/todc/todc-bootstrap/blob/master/assets/css/docs.min.css"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.3.6-3.3.6/assets/css/docs.min.css"
+              data-name="v3.3.6-3.3.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.6-3.3.6">
+                v3.3.6-3.3.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.3.5-3.3.5/assets/css/docs.min.css"
+              data-name="v3.3.5-3.3.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.5-3.3.5">
+                v3.3.5-3.3.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.3.4-3.3.4/assets/css/docs.min.css"
+              data-name="v3.3.4-3.3.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.4-3.3.4">
+                v3.3.4-3.3.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.3.2-3.3.2/assets/css/docs.min.css"
+              data-name="v3.3.2-3.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.2-3.3.2">
+                v3.3.2-3.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.3.1-3.3.1/assets/css/docs.min.css"
+              data-name="v3.3.1-3.3.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.1-3.3.1">
+                v3.3.1-3.3.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.3.0-3.3.0/assets/css/docs.min.css"
+              data-name="v3.3.0-3.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.3.0-3.3.0">
+                v3.3.0-3.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.2.0-3.3.0/assets/css/docs.min.css"
+              data-name="v3.2.0-3.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.2.0-3.3.0">
+                v3.2.0-3.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.1.1-3.2.1/assets/css/docs.min.css"
+              data-name="v3.1.1-3.2.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.1.1-3.2.1">
+                v3.1.1-3.2.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.1.0-3.2.0/assets/css/docs.min.css"
+              data-name="v3.1.0-3.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.1.0-3.2.0">
+                v3.1.0-3.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.0.3-3.1.0/assets/css/docs.min.css"
+              data-name="v3.0.3-3.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.0.3-3.1.0">
+                v3.0.3-3.1.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.0.2/assets/css/docs.min.css"
+              data-name="v3.0.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.0.2">
+                v3.0.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.0.2-3.0.2/assets/css/docs.min.css"
+              data-name="v3.0.2-3.0.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.0.2-3.0.2">
+                v3.0.2-3.0.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v3.0.1/assets/css/docs.min.css"
+              data-name="v3.0.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v3.0.1">
+                v3.0.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v2.3.2/assets/css/docs.min.css"
+              data-name="v2.3.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v2.3.2">
+                v2.3.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/v2.2.1/assets/css/docs.min.css"
+              data-name="v2.2.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="v2.2.1">
+                v2.2.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/todc/todc-bootstrap/tree/css3-google-buttons/assets/css/docs.min.css"
+              data-name="css3-google-buttons"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <span aria-hidden="true" class="octicon octicon-check select-menu-item-icon"></span>
+              <span class="select-menu-item-text css-truncate-target" title="css3-google-buttons">
+                css3-google-buttons
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="btn-group right">
+    <a href="/todc/todc-bootstrap/find/gh-pages"
+          class="js-show-file-finder btn btn-sm"
+          data-pjax
+          data-hotkey="t">
+      Find file
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+  </div>
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/todc/todc-bootstrap/tree/gh-pages" class="" data-branch="gh-pages" data-pjax="true" itemscope="url"><span itemprop="title">todc-bootstrap</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/todc/todc-bootstrap/tree/gh-pages/assets" class="" data-branch="gh-pages" data-pjax="true" itemscope="url"><span itemprop="title">assets</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/todc/todc-bootstrap/tree/gh-pages/assets/css" class="" data-branch="gh-pages" data-pjax="true" itemscope="url"><span itemprop="title">css</span></a></span><span class="separator">/</span><strong class="final-path">docs.min.css</strong>
+  </div>
+</div>
+
+
+  <div class="commit-tease">
+      <span class="right">
+        <a class="commit-tease-sha" href="/todc/todc-bootstrap/commit/25a0253ee8d22b1ee03bd64adbb69a4b96eb2169" data-pjax>
+          25a0253
+        </a>
+        <time datetime="2015-11-25T16:11:18Z" is="relative-time">Nov 25, 2015</time>
+      </span>
+      <div>
+        <img alt="@acmetech" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/134294?v=3&amp;s=40" width="20" />
+        <a href="/acmetech" class="user-mention" rel="contributor">acmetech</a>
+          <a href="/todc/todc-bootstrap/commit/25a0253ee8d22b1ee03bd64adbb69a4b96eb2169" class="message" data-pjax="true" title="update the select2 background url">update the select2 background url</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <a class="muted-link contributors-toggle" href="#blob_contributors_box" rel="facebox">
+        <strong>1</strong>
+         contributor
+      </a>
+      
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@acmetech" height="24" src="https://avatars3.githubusercontent.com/u/134294?v=3&amp;s=48" width="24" />
+            <a href="/acmetech">acmetech</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="btn-group">
+      <a href="/todc/todc-bootstrap/raw/gh-pages/assets/css/docs.min.css" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/todc/todc-bootstrap/blame/gh-pages/assets/css/docs.min.css" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/todc/todc-bootstrap/commits/gh-pages/assets/css/docs.min.css" class="btn btn-sm " rel="nofollow">History</a>
+    </div>
+
+
+        <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <span aria-hidden="true" class="octicon octicon-pencil"></span>
+        </button>
+        <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <span aria-hidden="true" class="octicon octicon-trashcan"></span>
+        </button>
+  </div>
+
+  <div class="file-info">
+      11 lines (11 sloc)
+      <span class="file-info-divider"></span>
+    33.4 KB
+  </div>
+</div>
+
+  
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*!</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * IE10 viewport hack for Surface/desktop Windows 8 bug</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Copyright 2014-2015 Twitter, Inc.</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> */@-ms-viewport{width:device-width}@-o-viewport{width:device-width}@viewport{width:device-width}.hll{background-color:#ffc}.c{color:#999}.err{color:#A00;background-color:#FAA}.k{color:#069}.o{color:#555}.cm{color:#999}.cp{color:#099}.c1{color:#999}.cs{color:#999}.gd{background-color:#FCC;border:1px solid #C00}.ge{font-style:italic}.gr{color:red}.gh{color:#030}.gi{background-color:#CFC;border:1px solid #0C0}.go{color:#AAA}.gp{color:#009}.gu{color:#030}.gt{color:#9C6}.kc{color:#069}.kd{color:#069}.kn{color:#069}.kp{color:#069}.kr{color:#069}.kt{color:#078}.m{color:#F60}.s{color:#d44950}.na{color:#4f9fcf}.nb{color:#366}.nc{color:#0A8}.no{color:#360}.nd{color:#99F}.ni{color:#999}.ne{color:#C00}.nf{color:#C0F}.nl{color:#99F}.nn{color:#0CF}.nt{color:#2f6f9f}.nv{color:#033}.ow{color:#000}.w{color:#bbb}.mf{color:#F60}.mh{color:#F60}.mi{color:#F60}.mo{color:#F60}.sb{color:#C30}.sc{color:#C30}.sd{color:#C30;font-style:italic}.s2{color:#C30}.se{color:#C30}.sh{color:#C30}.si{color:#A00}.sx{color:#C30}.sr{color:#3AA}.s1{color:#C30}.ss{color:#FC3}.bp{color:#366}.vc{color:#033}.vg{color:#033}.vi{color:#033}.il{color:#F60}.css .nt+.nt,.css .o,.css .o+.nt{color:#999}.select2-container{position:relative;display:inline-block;zoom:1;*display:inline;vertical-align:top;padding:0;border:0}.select2-container:hover{border:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.select2-container,.select2-drop,.select2-search,.select2-search input{-moz-box-sizing:border-box;-ms-box-sizing:border-box;-webkit-box-sizing:border-box;-khtml-box-sizing:border-box;box-sizing:border-box}.select2-container .select2-choice{display:block;overflow:hidden;text-decoration:none;padding:4px 12px;margin:0;color:#333;text-shadow:0 1px 0 #fff;white-space:nowrap;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:13px;cursor:default;height:18px;background-color:#f3f3f3;background-image:-moz-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:-webkit-gradient(linear,0 0,0 100%,from(#f5f5f5),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:-o-linear-gradient(top,#f5f5f5,#f1f1f1);background-image:linear-gradient(to bottom,#f5f5f5,#f1f1f1);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff5f5f5&#39;, endColorstr=&#39;#fff1f1f1&#39;, GradientType=0);-webkit-background-clip:padding;-moz-background-clip:padding;background-clip:padding;border:1px solid #dcdcdc;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;-moz-box-sizing:content-box;-ms-box-sizing:content-box;-webkit-box-sizing:content-box;-khtml-box-sizing:content-box;box-sizing:content-box}.select2-container .select2-choice:hover{color:#333;text-shadow:none;border-color:#c6c6c6;background-color:#f5f5f5;background-image:-moz-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:-webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:-o-linear-gradient(top,#f8f8f8,#f1f1f1);background-image:linear-gradient(to bottom,#f8f8f8,#f1f1f1);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff8f8f8&#39;, endColorstr=&#39;#fff1f1f1&#39;, GradientType=0);-webkit-box-shadow:0 1px 1px rgba(0,0,0,.1);-moz-box-shadow:0 1px 1px rgba(0,0,0,.1);box-shadow:0 1px 1px rgba(0,0,0,.1);background-position:0 0;-webkit-transition:none;-moz-transition:none;-o-transition:none;transition:none;z-index:2}.select2-container-active .select2-choice:hover{border:1px solid #4D90FE}.select2-container.select2-drop-above .select2-choice{background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,#eee),color-stop(.9,#fff));background-image:-webkit-linear-gradient(center bottom,#eee 0,#fff 90%);background-image:-moz-linear-gradient(center bottom,#eee 0,#fff 90%);background-image:-o-linear-gradient(bottom,#eee 0,#fff 90%);background-image:-ms-linear-gradient(top,#eee 0,#fff 90%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#eeeeee&#39;, endColorstr=&#39;#ffffff&#39;, GradientType=0 );background-image:linear-gradient(top,#eee 0,#fff 90%)}.select2-container .select2-choice span{margin-right:26px;display:block;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis;text-overflow:ellipsis}.select2-container .select2-choice abbr{display:block;position:absolute;right:26px;top:8px;width:12px;height:12px;font-size:17px;line-height:16px;color:#595959;font-weight:700;cursor:pointer;text-decoration:none;border:0;outline:0}.select2-container .select2-choice abbr:hover{color:#222;cursor:pointer}.select2-drop-mask{position:absolute;left:0;top:0;z-index:9998;opacity:0}.select2-drop{background:#fff;color:#000;border:1px solid #aaa;position:absolute;top:100%;-webkit-box-shadow:0 2px 4px rgba(0,0,0,.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,.2);-o-box-shadow:0 2px 4px rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.2);z-index:9999;width:100%;margin-top:1px}.select2-drop.select2-drop-above{margin-top:-1px;-webkit-box-shadow:0 -2px 4px rgba(0,0,0,.2);-moz-box-shadow:0 -2px 4px rgba(0,0,0,.2);-o-box-shadow:0 -2px 4px rgba(0,0,0,.2);box-shadow:0 -2px 4px rgba(0,0,0,.2)}.select2-container .select2-choice div{-webkit-border-radius:0 2px 2px 0;-moz-border-radius:0 2px 2px 0;border-radius:0 2px 2px 0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;position:absolute;right:0;top:0;display:block;height:100%;width:18px}.select2-container .select2-choice div b{background:url(../img/select2.png) no-repeat -30px 2px;display:block;width:100%;height:100%}.select2-search{display:inline-block;white-space:nowrap;z-index:10000;min-height:26px;width:100%;margin:0;padding:4px 4px 0 4px}.select2-search-hidden{display:block;position:absolute;left:-10000px}.select2-search input{background:#fff url(../img/select2.png) no-repeat 100% -22px;background:url(../img/select2.png) no-repeat 100% -22px,-webkit-gradient(linear,left bottom,left top,color-stop(.85,#fff),color-stop(.99,#eee));background:url(../img/select2.png) no-repeat 100% -22px,-webkit-linear-gradient(center bottom,#fff 85%,#eee 99%);background:url(../img/select2.png) no-repeat 100% -22px,-moz-linear-gradient(center bottom,#fff 85%,#eee 99%);background:url(../img/select2.png) no-repeat 100% -22px,-o-linear-gradient(bottom,#fff 85%,#eee 99%);background:url(../img/select2.png) no-repeat 100% -22px,-ms-linear-gradient(top,#fff 85%,#eee 99%);background:url(../img/select2.png) no-repeat 100% -22px,linear-gradient(top,#fff 85%,#eee 99%);padding:4px 20px 4px 5px;outline:0;border:1px solid #aaa;font-family:sans-serif;font-size:1em;width:100%;margin:0;height:auto!important;min-height:26px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}.select2-drop.select2-drop-above .select2-search input{margin-top:4px}.select2-search input.select2-active{background:#fff url(../img/spinner.gif) no-repeat 100%;background:url(../img/spinner.gif) no-repeat 100%,-webkit-gradient(linear,left bottom,left top,color-stop(.85,#fff),color-stop(.99,#eee));background:url(../img/spinner.gif) no-repeat 100%,-webkit-linear-gradient(center bottom,#fff 85%,#eee 99%);background:url(../img/spinner.gif) no-repeat 100%,-moz-linear-gradient(center bottom,#fff 85%,#eee 99%);background:url(../img/spinner.gif) no-repeat 100%,-o-linear-gradient(bottom,#fff 85%,#eee 99%);background:url(../img/spinner.gif) no-repeat 100%,-ms-linear-gradient(top,#fff 85%,#eee 99%);background:url(../img/spinner.gif) no-repeat 100%,linear-gradient(top,#fff 85%,#eee 99%)}.select2-container-active .select2-choice,.select2-container-active .select2-choices{border:1px solid #4D90FE;outline:0}.select2-dropdown-open .select2-choice,.select2-dropdown-open .select2-choice:hover{background-color:#f4f4f4;background-image:-moz-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:-webkit-gradient(linear,0 0,0 100%,from(#f6f6f6),to(#f1f1f1));background-image:-webkit-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:-o-linear-gradient(top,#f6f6f6,#f1f1f1);background-image:linear-gradient(to bottom,#f6f6f6,#f1f1f1);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff6f6f6&#39;, endColorstr=&#39;#fff1f1f1&#39;, GradientType=0);-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}.select2-dropdown-open .select2-choice div{background:0 0;border-left:none}.select2-results{margin:4px 1px 4px 0;padding:0;position:relative;overflow-x:hidden;overflow-y:auto;max-height:200px}.select2-results ul.select2-result-sub{margin:0}.select2-results ul.select2-result-sub&gt;li .select2-result-label{padding-left:20px}.select2-results ul.select2-result-sub ul.select2-result-sub&gt;li .select2-result-label{padding-left:40px}.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub&gt;li .select2-result-label{padding-left:60px}.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub&gt;li .select2-result-label{padding-left:80px}.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub&gt;li .select2-result-label{padding-left:100px}.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub&gt;li .select2-result-label{padding-left:110px}.select2-results ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub ul.select2-result-sub&gt;li .select2-result-label{padding-left:120px}.select2-results li{list-style:none;display:list-item}.select2-results li.select2-result-with-children&gt;.select2-result-label{font-weight:700}.select2-results .select2-result-label{padding:3px 7px 4px;margin:0;cursor:pointer}.select2-results .select2-highlighted{background:#eee}.select2-results li em{background:#feffde;font-style:normal}.select2-results .select2-highlighted em{background:0 0}.select2-results .select2-no-results,.select2-results .select2-searching,.select2-results .select2-selection-limit{background:#f4f4f4;display:list-item;padding-left:4px}.select2-results .select2-disabled{display:none}.select2-more-results.select2-active{background:#f4f4f4 url(../img/spinner.gif) no-repeat 100%}.select2-more-results{background:#f4f4f4;display:list-item}.select2-container.select2-container-disabled .select2-choice{color:#b3b3b3;border-color:#d9d9d9;background-color:#e6e6e6;background-image:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;text-shadow:none;cursor:default}.select2-container.select2-container-disabled .select2-choice div{opacity:.5;filter:alpha(opacity=50)}.select2-container-multi .select2-choices{background-color:#fff;border:1px solid #d9d9d9;border-top:1px solid silver;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0;padding:0;cursor:text;overflow:hidden;height:auto!important;height:1%;position:relative}.select2-container-multi .select2-choices:hover{border:1px solid #b9b9b9;border-top:1px solid #a0a0a0;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}.select2-container-multi .select2-choices{min-height:26px}.select2-container-multi.select2-container-active .select2-choices{border:1px solid #4D90FE;outline:0}.select2-container-multi .select2-choices li{float:left;list-style:none}.select2-container-multi .select2-choices .select2-search-field{white-space:nowrap;margin:0;padding:0}.select2-container-multi .select2-choices .select2-search-field input{color:#666;background:0 0!important;font-family:sans-serif;font-size:100%;height:23px;padding:5px;margin:1px 0;outline:0;border:0;-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none}.select2-container-multi .select2-choices .select2-search-field input.select2-active{background:#fff url(../img/spinner.gif) no-repeat 100%!important}.select2-default{color:#999!important}.select2-container-multi .select2-choices .select2-search-choice{-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;background-color:#DAE4F6;color:#222;font-family:Arial;border:1px solid #DAE4F6;line-height:23px;padding:0 19px 0 5px;margin:1px;position:relative;cursor:default}.select2-container-multi .select2-choices .select2-search-choice span{cursor:default}.select2-container-multi .select2-choices .select2-search-choice-focus{background:#A6D7F5}.select2-search-choice-close{display:block;position:absolute;right:3px;top:4px;width:12px;height:13px;font-size:17px;line-height:16px;color:#444;font-weight:700;outline:0}.select2-search-choice-close:hover{text-decoration:none;color:#222;cursor:pointer}.select2-container-multi.select2-container-disabled .select2-choices{background-color:#f4f4f4;background-image:none;border:1px solid #ddd;cursor:default}.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice{background-image:none;background-color:#f4f4f4;border:1px solid #ddd;padding:3px 5px 3px 5px}.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice .select2-search-choice-close{display:none}.select2-result-selectable .select2-match,.select2-result-unselectable .select2-result-selectable .select2-match{font-weight:700}.select2-result-unselectable .select2-match{text-decoration:none}.select2-offscreen{position:absolute;left:-10000px}.select2-results::-webkit-scrollbar{height:16px;width:10px}.select2-results::-webkit-scrollbar-button:end:increment,.select2-results::-webkit-scrollbar-button:start:decrement{background-color:transparent;display:block;height:0}.select2-results::-webkit-scrollbar-track{background-clip:padding-box;border:solid transparent;border-width:0 0 0 4px}.select2-results::-webkit-scrollbar-track-piece{background-color:transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.select2-results::-webkit-scrollbar:hover{background-color:#f3f3f3;border:1px solid #dbdbdb}.select2-results::-webkit-scrollbar-thumb:horizontal,.select2-results::-webkit-scrollbar-thumb:vertical{background-color:#c6c6c6;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.select2-results::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2);border:solid transparent;border-width:0;-webkit-box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);-moz-box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);background-clip:padding-box}.select2-results::-webkit-scrollbar-thumb:hover{background-color:#949494}.select2-results::-webkit-scrollbar-thumb:active{background-color:rgba(0,0,0,.5);-webkit-box-shadow:inset 1px 1px 3px rgba(0,0,0,.35);-moz-box-shadow:inset 1px 1px 3px rgba(0,0,0,.35);box-shadow:inset 1px 1px 3px rgba(0,0,0,.35)}@media only screen and (-webkit-min-device-pixel-ratio:1.5){.select2-container .select2-choice div b,.select2-search input{background-image:url(../img/select2x2.png)!important;background-repeat:no-repeat!important;background-size:60px 40px!important}.select2-search input{background-position:100% -21px!important}}/*!</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Bootstrap Docs (http://getbootstrap.com)</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Copyright 2011-2015 Twitter, Inc.</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Licensed under the Creative Commons Attribution 3.0 Unported License. For</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * details, see https://creativecommons.org/licenses/by/3.0/.</span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> */body{position:relative;padding-top:46px}.table code{font-size:13px;font-weight:400}h2 code,h3 code,h4 code{background-color:inherit}.btn-outline{color:#4d90fe;background-color:transparent;border-color:#4d90fe}.btn-outline:active,.btn-outline:focus,.btn-outline:hover{color:#fff;background-color:#4d90fe;border-color:#4d90fe}.btn-outline-inverse{color:#fff;background-color:transparent;border-color:#fff}.btn-outline-inverse:active,.btn-outline-inverse:focus,.btn-outline-inverse:hover{color:#2d87e2;text-shadow:none;background-color:#fff;border-color:#fff}#skippy{display:block;padding:1em;color:#777;background-color:#f1f1f1;outline:0}#skippy .skiplink-text{padding:.5em;outline:1px dotted}#content:focus{outline:0}.bs-docs-footer{padding-top:40px;padding-bottom:30px;margin-top:100px;color:#777;text-align:center;border-top:1px solid #e5e5e5}.bs-docs-footer-links{padding-left:0;margin-bottom:20px}.bs-docs-footer-links li{display:inline-block}.bs-docs-footer-links li+li{margin-left:15px}@media (min-width:768px){.bs-docs-footer{text-align:left}.bs-docs-footer p{margin-bottom:0}}.bs-docs-header,.bs-docs-masthead{position:relative;padding:30px 0;color:#b3d4f4;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,.1);background-color:#2d87e2;background-image:-webkit-linear-gradient(top,#1b6ec1 0,#2d87e2 100%);background-image:-webkit-gradient(linear,left top,left bottom,from(#1b6ec1),to(#2d87e2));background-image:-o-linear-gradient(top,#1b6ec1 0,#2d87e2 100%);background-image:linear-gradient(to bottom,#1b6ec1 0,#2d87e2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#1b6ec1&#39;, endColorstr=&#39;#2d87e2&#39;, GradientType=0);background-repeat:repeat-x}.bs-docs-masthead .bs-docs-booticon{margin:0 auto 30px}.bs-docs-masthead h1{font-weight:300;line-height:1;color:#fff}.bs-docs-masthead .lead{margin:0 auto 30px;font-size:20px;color:#fff}.bs-docs-masthead .version{margin-top:-15px;color:#b3d4f4}.bs-docs-masthead .btn{width:100%;padding:15px 30px;font-size:20px}@media (min-width:480px){.bs-docs-masthead .btn{width:auto}}@media (min-width:768px){.bs-docs-masthead{padding:80px 0}.bs-docs-masthead h1{font-size:60px}.bs-docs-masthead .lead{font-size:24px}}@media (min-width:992px){.bs-docs-masthead .lead{width:80%;font-size:30px}}.bs-docs-header{margin-bottom:40px;font-size:20px}.bs-docs-header h1{margin-top:0;color:#fff}.bs-docs-header p{margin-bottom:0;font-weight:300;line-height:1.4}.bs-docs-header .container{position:relative}@media (min-width:768px){.bs-docs-header{padding-top:60px;padding-bottom:60px;font-size:24px;text-align:left}.bs-docs-header h1{font-size:60px;line-height:1}}@media (min-width:992px){.bs-docs-header h1,.bs-docs-header p{margin-right:380px}}.bs-docs-featurette{padding-top:40px;padding-bottom:40px;font-size:16px;line-height:1.5;color:#555;text-align:center;background-color:#fff;border-bottom:1px solid #e5e5e5}.bs-docs-featurette+.bs-docs-footer{margin-top:0;border-top:0}.bs-docs-featurette-title{margin-bottom:5px;font-size:30px;font-weight:400;color:#333}.half-rule{width:100px;margin:40px auto}.bs-docs-featurette h3{margin-bottom:5px;font-weight:400;color:#333}.bs-docs-featurette-img{display:block;margin-bottom:20px;color:#333}.bs-docs-featurette-img:hover{color:#337ab7;text-decoration:none}.bs-docs-featurette-img img{display:block;margin-bottom:15px}@media (min-width:480px){.bs-docs-featurette .img-responsive{margin-top:30px}}@media (min-width:768px){.bs-docs-featurette{padding-top:100px;padding-bottom:100px}.bs-docs-featurette-title{font-size:40px}.bs-docs-featurette .lead{max-width:80%;margin-right:auto;margin-left:auto}.bs-docs-featurette .img-responsive{margin-top:0}}.bs-docs-featured-sites{margin-right:-1px;margin-left:-1px}.bs-docs-featured-sites .col-xs-6{padding:1px}.bs-docs-featured-sites .img-responsive{margin-top:0}@media (min-width:768px){.bs-docs-featured-sites .col-sm-3:first-child img{border-top-left-radius:4px;border-bottom-left-radius:4px}.bs-docs-featured-sites .col-sm-3:last-child img{border-top-right-radius:4px;border-bottom-right-radius:4px}}.bs-examples .thumbnail{margin-bottom:10px}.bs-examples h4{margin-bottom:5px}.bs-examples p{margin-bottom:20px}@media (max-width:480px){.bs-examples{margin-right:-10px;margin-left:-10px}.bs-examples&gt;[class^=col-]{padding-right:10px;padding-left:10px}}.bs-docs-sidebar.affix{position:static}@media (min-width:768px){.bs-docs-sidebar{padding-left:20px}}.bs-docs-sidenav{margin-top:50px;margin-bottom:20px}.bs-docs-sidebar .nav&gt;li&gt;a{display:block;padding:5px 20px;font-size:13px;font-weight:500;color:#222}.bs-docs-sidebar .nav&gt;li&gt;a:focus,.bs-docs-sidebar .nav&gt;li&gt;a:hover{text-decoration:none;background-color:#eee}.bs-docs-sidebar .nav&gt;.active:focus&gt;a,.bs-docs-sidebar .nav&gt;.active:hover&gt;a,.bs-docs-sidebar .nav&gt;.active&gt;a{color:#dd4b39;background-color:transparent}.bs-docs-sidebar .nav .nav{display:none;margin-bottom:8px}.bs-docs-sidebar .nav .nav&gt;li&gt;a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px}.back-to-top,.bs-docs-theme-toggle{display:none;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:hover,.bs-docs-theme-toggle:hover{color:#563d7c;text-decoration:none}.bs-docs-theme-toggle{margin-top:0}@media (min-width:768px){.back-to-top,.bs-docs-theme-toggle{display:block}}@media (min-width:992px){.bs-docs-sidebar .nav&gt;.active&gt;ul{display:block}.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom{width:213px}.bs-docs-sidebar.affix{position:fixed;top:80px}.bs-docs-sidebar.affix-bottom{position:absolute}.bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav{margin-top:0;margin-bottom:0}}@media (min-width:1200px){.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom{width:263px}}.bs-docs-section{margin-bottom:60px}.bs-docs-section:last-child{margin-bottom:0}h1[id]{padding-top:20px;margin-top:0}.bs-callout{padding:20px;margin:20px 0;border:1px solid #eee;border-left-width:5px;border-radius:3px}.bs-callout h4{margin-top:0;margin-bottom:5px}.bs-callout p:last-child{margin-bottom:0}.bs-callout code{border-radius:3px}.bs-callout+.bs-callout{margin-top:-5px}.bs-callout-danger{border-left-color:#dd4b39}.bs-callout-danger h4{color:#c23321}.bs-callout-warning{border-left-color:#f1e7bc}.bs-callout-warning h4{color:#ba9e27}.bs-callout-info{border-left-color:#d0e3f0}.bs-callout-info h4{color:#3b86b9}.color-swatches{margin:0 -5px;overflow:hidden}.color-swatch{float:left;width:60px;height:60px;margin:0 5px;border-radius:3px}@media (min-width:768px){.color-swatch{width:100px;height:100px}}.color-swatches .gray-darker{background-color:#222}.color-swatches .gray-dark{background-color:#333}.color-swatches .gray{background-color:#555}.color-swatches .gray-light{background-color:#999}.color-swatches .gray-lighter{background-color:#eee}.color-swatches .brand-primary{background-color:#4d90fe}.color-swatches .brand-success{background-color:#35aa47}.color-swatches .brand-warning{background-color:#faa937}.color-swatches .brand-danger{background-color:#d84a38}.color-swatches .brand-info{background-color:#5bc0de}.color-swatches .bs-purple{background-color:#1b6ec1}.color-swatches .bs-purple-light{background-color:#c7bfd3}.color-swatches .bs-purple-lighter{background-color:#e5e1ea}.color-swatches .bs-gray{background-color:#f9f9f9}.bs-team .team-member{line-height:32px;color:#555}.bs-team .team-member:hover{color:#333;text-decoration:none}.bs-team .github-btn{float:right;width:180px;height:20px;margin-top:6px}.bs-team img{float:left;width:32px;margin-right:10px;border-radius:4px}.bs-docs-browser-bugs td p{margin-bottom:0}.bs-docs-browser-bugs th:first-child{width:18%}.show-grid{margin-bottom:15px}.show-grid [class^=col-]{padding-top:10px;padding-bottom:10px;background-color:#f9f9f9;border:1px solid #ddd}.bs-example{position:relative;padding:45px 15px 15px;margin:0 -15px 15px;border-color:#e5e5e5 #eee #eee;border-style:solid;border-width:1px 0;-webkit-box-shadow:inset 0 3px 6px rgba(0,0,0,.05);box-shadow:inset 0 3px 6px rgba(0,0,0,.05)}.bs-example:after{position:absolute;top:15px;left:15px;font-size:12px;font-weight:700;color:#959595;text-transform:uppercase;letter-spacing:1px;content:&quot;Example&quot;}.bs-example-padded-bottom{padding-bottom:24px}.bs-example+.highlight,.bs-example+.zero-clipboard+.highlight{margin:-15px -15px 15px;border-width:0 0 1px;border-radius:0}@media (min-width:768px){.bs-example{margin-right:0;margin-left:0;background-color:#fff;border-color:#ddd;border-width:1px;border-radius:4px 4px 0 0;-webkit-box-shadow:none;box-shadow:none}.bs-example+.highlight,.bs-example+.zero-clipboard+.highlight{margin-top:-16px;margin-right:0;margin-left:0;border-width:1px;border-bottom-right-radius:4px;border-bottom-left-radius:4px}.bs-example-standalone{border-radius:4px}}.bs-example .container{width:auto}.bs-example&gt;.alert:last-child,.bs-example&gt;.form-control:last-child,.bs-example&gt;.jumbotron:last-child,.bs-example&gt;.list-group:last-child,.bs-example&gt;.navbar:last-child,.bs-example&gt;.panel:last-child,.bs-example&gt;.progress:last-child,.bs-example&gt;.table-responsive:last-child&gt;.table,.bs-example&gt;.table:last-child,.bs-example&gt;.well:last-child,.bs-example&gt;blockquote:last-child,.bs-example&gt;ol:last-child,.bs-example&gt;p:last-child,.bs-example&gt;ul:last-child{margin-bottom:0}.bs-example&gt;p&gt;.close{float:none}.bs-example-type .table .type-info{color:#999;vertical-align:middle}.bs-example-type .table td{padding:15px 0;border-color:#eee}.bs-example-type .table tr:first-child td{border-top:0}.bs-example-type h1,.bs-example-type h2,.bs-example-type h3,.bs-example-type h4,.bs-example-type h5,.bs-example-type h6{margin:0}.bs-example-bg-classes p{padding:15px}.bs-example&gt;.img-circle,.bs-example&gt;.img-rounded,.bs-example&gt;.img-thumbnail{margin:5px}.bs-example&gt;.table-responsive&gt;.table{background-color:#fff}.bs-example&gt;.btn,.bs-example&gt;.btn-group{margin-top:5px;margin-bottom:5px}.bs-example&gt;.btn-toolbar+.btn-toolbar{margin-top:10px}.bs-example .select2-container.form-control,.bs-example-control-sizing input[type=text]+input[type=text],.bs-example-control-sizing select{margin-top:10px}.bs-example-form .input-group{margin-bottom:10px}.bs-example&gt;textarea.form-control{resize:vertical}.bs-example&gt;.list-group{max-width:400px}.bs-example .navbar:last-child{margin-bottom:0}.bs-navbar-bottom-example,.bs-navbar-top-example{z-index:1;padding:0;overflow:hidden}.bs-navbar-bottom-example .navbar-header,.bs-navbar-top-example .navbar-header{margin-left:0}.bs-navbar-bottom-example .navbar-fixed-bottom,.bs-navbar-top-example .navbar-fixed-top{position:relative;margin-right:0;margin-left:0}.bs-navbar-top-example{padding-bottom:90px}.bs-navbar-top-example:after{top:auto;bottom:15px}.bs-navbar-top-example .navbar-fixed-top{top:-1px}.bs-navbar-bottom-example{padding-top:90px}.bs-navbar-bottom-example .navbar-fixed-bottom{bottom:-1px}.bs-navbar-bottom-example .navbar{margin-bottom:0}@media (min-width:768px){.bs-navbar-bottom-example .navbar-fixed-bottom,.bs-navbar-top-example .navbar-fixed-top{position:absolute}}.bs-example .pagination{margin-top:10px;margin-bottom:10px}.bs-example&gt;.pager{margin-top:0}.bs-example&gt;.scrollable{height:200px;overflow-y:auto}.bs-example-modal{background-color:#f5f5f5}.bs-example-modal .modal{position:relative;top:auto;right:auto;bottom:auto;left:auto;z-index:1;display:block}.bs-example-modal .modal-dialog{left:auto;margin-right:auto;margin-left:auto}.bs-example .dropup&gt;.dropdown-toggle,.bs-example&gt;.dropdown&gt;.dropdown-toggle{float:left}.bs-example-submenu .dropdown&gt;.dropdown-menu,.bs-example-submenu .dropup&gt;.dropdown-menu,.bs-example&gt;.dropdown&gt;.dropdown-menu{position:static;display:block;margin-bottom:5px;clear:left}.bs-example-submenu .dropdown-menu{margin-right:20px}.bs-example-tabs .nav-tabs{margin-bottom:15px}.bs-example-tooltips{text-align:center}.bs-example-tooltips&gt;.btn{margin-top:5px;margin-bottom:5px}.bs-example-tooltip .tooltip{position:relative;display:inline-block;margin:10px 20px;opacity:1}.bs-example-popover{padding-bottom:24px;background-color:#f9f9f9}.bs-example-popover .popover{position:relative;display:block;float:left;width:260px;margin:20px}.scrollspy-example{position:relative;height:200px;margin-top:10px;overflow:auto}.bs-example&gt;.nav-pills-stacked-example{max-width:300px}#collapseExample .well{margin-bottom:0}.bs-events-table&gt;tbody&gt;tr&gt;td:first-child,.bs-events-table&gt;thead&gt;tr&gt;th:first-child{white-space:nowrap}.bs-events-table&gt;thead&gt;tr&gt;th:first-child{width:150px}.js-options-table&gt;thead&gt;tr&gt;th:nth-child(1),.js-options-table&gt;thead&gt;tr&gt;th:nth-child(2){width:100px}.js-options-table&gt;thead&gt;tr&gt;th:nth-child(3){width:50px}.highlight{padding:9px 14px;margin-bottom:14px;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.highlight pre{padding:0;margin-top:0;margin-bottom:0;word-break:normal;white-space:nowrap;background-color:transparent;border:0}.highlight pre code{font-size:inherit;color:#333}.highlight pre code:first-child{display:inline-block;padding-right:45px}.table-responsive .highlight pre{white-space:normal}.bs-table th small,.responsive-utilities th small{display:block;font-weight:400;color:#999}.responsive-utilities tbody th{font-weight:400}.responsive-utilities td{text-align:center}.responsive-utilities td.is-visible{color:#468847;background-color:#dff0d8!important}.responsive-utilities td.is-hidden{color:#ccc;background-color:#f9f9f9!important}.responsive-utilities-test{margin-top:5px}.responsive-utilities-test .col-xs-6{margin-bottom:10px}.responsive-utilities-test span{display:block;padding:15px 10px;font-size:14px;font-weight:700;line-height:1.1;text-align:center;border-radius:4px}.hidden-on .col-xs-6 .hidden-lg,.hidden-on .col-xs-6 .hidden-md,.hidden-on .col-xs-6 .hidden-sm,.hidden-on .col-xs-6 .hidden-xs,.visible-on .col-xs-6 .hidden-lg,.visible-on .col-xs-6 .hidden-md,.visible-on .col-xs-6 .hidden-sm,.visible-on .col-xs-6 .hidden-xs{color:#999;border:1px solid #ddd}.hidden-on .col-xs-6 .visible-lg-block,.hidden-on .col-xs-6 .visible-md-block,.hidden-on .col-xs-6 .visible-sm-block,.hidden-on .col-xs-6 .visible-xs-block,.visible-on .col-xs-6 .visible-lg-block,.visible-on .col-xs-6 .visible-md-block,.visible-on .col-xs-6 .visible-sm-block,.visible-on .col-xs-6 .visible-xs-block{color:#468847;background-color:#dff0d8;border:1px solid #d6e9c6}.bs-glyphicons{margin:0 -10px 20px;overflow:hidden}.bs-glyphicons-list{padding-left:0;list-style:none}.bs-glyphicons li{float:left;width:25%;height:115px;padding:10px;margin:0 -1px -1px 0;font-size:10px;line-height:1.4;text-align:center;border:1px solid #ddd}.bs-glyphicons .glyphicon{margin-top:5px;margin-bottom:10px;font-size:24px}.bs-glyphicons .glyphicon-class{display:block;text-align:center;word-wrap:break-word}.bs-glyphicons li:hover{background-color:#eee}@media (min-width:768px){.bs-glyphicons{margin-right:0;margin-left:0}.bs-glyphicons li{width:12.5%;font-size:12px}}.bs-customizer .toggle{float:right;margin-top:25px}.bs-customizer label{margin-top:10px;font-weight:500;color:#555}.bs-customizer h2{padding-top:30px;margin-top:0;margin-bottom:5px}.bs-customizer h3{margin-bottom:0}.bs-customizer h4{margin-top:15px;margin-bottom:0}.bs-customizer .bs-callout h4{margin-top:0;margin-bottom:5px}.bs-customizer input[type=text]{font-family:Menlo,Monaco,Consolas,&quot;Courier New&quot;,monospace;background-color:#fafafa}.bs-customizer .help-block{margin-bottom:5px;font-size:12px}#less-section label{font-weight:400}.bs-customize-download .btn-outline{padding:20px}.bs-customizer-alert{position:fixed;top:0;right:0;left:0;z-index:1030;padding:15px 0;color:#fff;background-color:#d9534f;border-bottom:1px solid #b94441;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25);box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}.bs-customizer-alert .close{margin-top:-4px;font-size:24px}.bs-customizer-alert p{margin-bottom:0}.bs-customizer-alert .glyphicon{margin-right:5px}.bs-customizer-alert pre{margin:10px 0 0;color:#fff;background-color:#a83c3a;border-color:#973634;-webkit-box-shadow:inset 0 2px 4px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 2px 4px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.1)}.bs-dropzone{position:relative;padding:20px;margin-bottom:20px;color:#777;text-align:center;border:2px dashed #eee;border-radius:4px}.bs-dropzone .import-header{margin-bottom:5px}.bs-dropzone .glyphicon-download-alt{font-size:40px}.bs-dropzone hr{width:100px}.bs-dropzone .lead{margin-bottom:10px;font-weight:400;color:#333}#import-manual-trigger{cursor:pointer}.bs-dropzone p:last-child{margin-bottom:0}.bs-brand-logos{display:table;width:100%;margin-bottom:15px;overflow:hidden;color:#1b6ec1;background-color:#f9f9f9;border-radius:4px}.bs-brand-item{padding:60px 0;text-align:center}.bs-brand-item+.bs-brand-item{border-top:1px solid #fff}.bs-brand-logos .inverse{color:#fff;background-color:#1b6ec1}.bs-brand-item h1,.bs-brand-item h3{margin-top:0;margin-bottom:0}.bs-brand-item .bs-docs-booticon{margin-right:auto;margin-left:auto}.bs-brand-item .glyphicon{width:30px;height:30px;margin:10px auto -10px;line-height:30px;color:#fff;border-radius:50%}.bs-brand-item .glyphicon-ok{background-color:#5cb85c}.bs-brand-item .glyphicon-remove{background-color:#d9534f}@media (min-width:768px){.bs-brand-item{display:table-cell;width:1%}.bs-brand-item+.bs-brand-item{border-top:0;border-left:1px solid #fff}.bs-brand-item h1{font-size:60px}}.zero-clipboard{position:relative;display:none}.btn-clipboard{position:absolute;top:0;right:0;z-index:10;display:block;padding:5px 8px;font-size:12px;color:#777;cursor:pointer;background-color:#fff;border:1px solid #e1e1e8;border-radius:0 4px 0 4px}.btn-clipboard-hover{color:#fff;background-color:#563d7c;border-color:#563d7c}@media (min-width:768px){.zero-clipboard{display:block}.bs-example+.zero-clipboard .btn-clipboard{top:-16px;border-top-right-radius:0}}.anchorjs-link{color:inherit}@media (max-width:480px){.anchorjs-link{display:none}}:hover&gt;.anchorjs-link{opacity:.75;-webkit-transition:color .16s linear;-o-transition:color .16s linear;transition:color .16s linear}.anchorjs-link:focus,:hover&gt;.anchorjs-link:hover{text-decoration:none;opacity:1}#focusedInput{border:1px solid #4d90fe!important;outline:0;outline:thin dotted\9;-webkit-box-shadow:none;box-shadow:none}.bs-docs-dl-options h4{margin-top:15px;margin-bottom:5px}</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c">/*# sourceMappingURL=docs.min.css.map */</span></td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+  </div>
+  <div class="modal-backdrop"></div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span aria-hidden="true" class="mega-octicon octicon-mark-github" title="GitHub "></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2016 <span title="0.04161s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span aria-hidden="true" class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span aria-hidden="true" class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-ef8eb4a89ee9f3c8b7613307fe589a8f5705817f7cee27bec51ce5e963234abf.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-119bc4b0e461ed40cd8b8110904de550f7886bc02efd25109df2740328bae70d.js"></script>
+      
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span aria-hidden="true" class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
